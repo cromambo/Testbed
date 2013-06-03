@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 2.8)
+set (exe_name "Hallo")
+set (source_files "main.cpp")
+add_executable ("${exe_name}" "${source_files}")
